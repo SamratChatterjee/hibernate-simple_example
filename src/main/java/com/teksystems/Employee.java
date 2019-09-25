@@ -3,9 +3,18 @@ package com.teksystems;
 public class Employee {  
     private int empId;  
     private String empName;  
-    private String empDept;  
-  
-    public Employee() {}  
+    private String empDept;
+    private String gender;
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public Employee() {}
     
     public Employee(int empId, String empName, String empDept) {  
     super();  
